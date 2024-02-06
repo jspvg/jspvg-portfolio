@@ -1,0 +1,63 @@
+/*Theming done with the help of realtimecolors*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400");
+
+/* light theme */
+:root {
+  --text: #0f1a12;
+  --background: #f2f8f4;
+  --primary: #55b970;
+  --secondary: #97d3a7;
+  --accent: #7ece94;
+}
+
+/* dark theme */
+body.dark {
+  --text: #e5f0e8;
+  --background: #070d09;
+  --primary: #46aa60;
+  --secondary: #2c683c;
+  --accent: #318148;
+}
+
+body {
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+html {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 4.21rem;
+}
+
+h2 {
+  font-size: 3.158rem;
+}
+
+h3 {
+  font-size: 2.369rem;
+}
+
+h4 {
+  font-size: 1.777rem;
+}
+
+h5 {
+  font-size: 1.333rem;
+}
+
+small {
+  font-size: 0.75rem;
+}
