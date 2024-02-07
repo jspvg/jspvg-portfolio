@@ -85,6 +85,14 @@ small {
   font-size: 0.75rem;
 }
 
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 80%;
+  text-align: center;
+}
+
 nav {
   display: flex;
   gap: 2rem;
@@ -95,6 +103,7 @@ nav {
 a {
   color: var(--text);
   text-decoration: none;
+  width: 100%;
 }
 
 a:hover,
@@ -115,4 +124,44 @@ div.page {
   align-items: center;
   margin-top: 1rem;
   width: 95dvw;
+}
+
+.menuBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text);
+}
+
+@media (max-width: 460px) {
+  nav {
+    display: none;
+  }
+
+  nav.open {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    width: 60%;
+    transform: translateX(-50%);
+    border: 1px solid var(--primary)
+  }
+}
+
+@media screen and (min-width: 461px) and (max-width: 600px) {
+  nav {
+    gap: 0;
+  }
+  a {
+    width: 6rem;
+  }
+}
+
+@media (min-width: 461px) {
+  .menuBtn {
+    display: none;
+  }
 }

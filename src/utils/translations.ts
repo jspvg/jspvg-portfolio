@@ -9,6 +9,10 @@ export const translations = {
     education: {
       title: "education",
     },
+    toggle: {
+      menu: "menu",
+      close: "close",
+    },
   },
   hr: {
     about: {
@@ -19,6 +23,10 @@ export const translations = {
     },
     education: {
       title: "obrazovanje",
+    },
+    toggle: {
+      menu: "meni",
+      close: "zatvori",
     },
   },
 };

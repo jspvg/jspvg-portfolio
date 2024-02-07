@@ -63,6 +63,11 @@ input:checked + .slider .off {
   display: none;
 }
 
+.lang {
+  display: flex;
+  flex-direction: row;
+}
+
 .lang button {
   background: none;
   border: none;
