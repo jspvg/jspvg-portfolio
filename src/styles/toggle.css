@@ -62,3 +62,15 @@ input:checked + .slider .on {
 input:checked + .slider .off {
   display: none;
 }
+
+.lang button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.lang .active {
+  text-decoration: underline;
+  color: var(--secondary);
+}
