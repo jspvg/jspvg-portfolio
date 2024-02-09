@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  height: 90dvh;
+  margin-top: 3rem;
 }
 
 .picture {
@@ -23,17 +23,23 @@
 
 .header {
   display: flex;
-  color: var(--secondary);
+  justify-content: flex-start;
   align-items: flex-end;
+  color: var(--secondary);
   gap: 2rem;
+  width: 100%;
 }
-
 
 .card {
   display: flex;
+  flex-direction: column;
   padding: 2rem;
   border: 2px solid var(--secondary);
   border-radius: 2rem;
-  max-width: 800px;
+  max-width: 1000px;
   margin-left: 2rem;
+
+  p {
+    margin: 0.5rem;
+  }
 }

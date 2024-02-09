@@ -1,19 +1,15 @@
+import { useLanguage } from "@/hooks/useLanguage";
+import { translations } from "@/utils/translations";
+
 const Card = () => {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   return (
     <div className="card">
-      <ul>
-        <li>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          facilis?
-        </li>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-        <li>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-          repellendus praesentium rerum.
-        </li>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-        <li>Lorem, ipsum dolor.</li>
-      </ul>
+      {t.about.description.map((paragraph, index) => (
+        <p key={index}>{paragraph}</p>
+      ))}
     </div>
   );
 };

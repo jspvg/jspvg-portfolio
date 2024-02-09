@@ -117,6 +117,7 @@ a[aria-current="page"] {
   align-items: center;
   margin-top: 1rem;
   width: 95dvw;
+  margin-bottom: 2rem;
 }
 
 .menuBtn {
