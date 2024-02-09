@@ -3,6 +3,7 @@ import { LanguageProvider } from "@/providers/LanguageProvider";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import "@/styles/globals.css";
 import "@/styles/toggle.css";
+import "@/styles/elements.css";
 
 import type { AppProps } from "next/app";
 

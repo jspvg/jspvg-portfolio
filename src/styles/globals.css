@@ -111,13 +111,6 @@ a[aria-current="page"] {
   text-decoration: underline;
 }
 
-div.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90dvh;
-}
-
 .navigation {
   display: flex;
   justify-content: space-between;

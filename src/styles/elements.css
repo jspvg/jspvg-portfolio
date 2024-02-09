@@ -1,0 +1,39 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 90dvh;
+}
+
+.picture {
+  border: 4px solid var(--secondary);
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+}
+
+@media (max-width: 600px) {
+  .picture {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+.header {
+  display: flex;
+  color: var(--secondary);
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+
+.card {
+  display: flex;
+  padding: 2rem;
+  border: 2px solid var(--secondary);
+  border-radius: 2rem;
+  max-width: 800px;
+  margin-left: 2rem;
+}
