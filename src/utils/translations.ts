@@ -9,8 +9,11 @@ export const translations = {
         "I've worked on several projects and have a solid educational background in computing. I'm currently expanding my knowledge while working on various challenges/tasks using React/Nextjs and TypeScript.",
         "I'm passionate about all things digital, including education, development and productivity tools. When I'm not in front of a computer screen, I'm probably baking or watching Formula 1.",
         "You can find more details about my projects and education on their respective pages. Feel free to get in touch with me at gabrijelajosipovic1@gmail.com or through my GitHub. I'm always open to new opportunities and challenges.",
-        "For more details, you can download my CV by clicking the button below.",
+        "For a short overview, you can download my CV by clicking the button below.",
       ],
+      cvUrl:
+        "https://drive.google.com/uc?export=download&id=1pypPHVtQxvYKA_yVsVvaoNvyvGkR2GSK",
+      download: "Download my CV",
     },
     projects: {
       title: "projects",
@@ -33,8 +36,11 @@ export const translations = {
         "Radila sam na nekoliko projekata i imam čvrstu obrazovnu pozadinu u računarstvu. Trenutno proširujem svoje znanje radeći na različitim izazovima/zadacima koristeći React/Nextjs i TypeScript.",
         "Volim i posvećena sam svemu što je digitalno, uključujući obrazovanje, razvoj i alate za produktivnost. Kada nisam ispred računalnog ekrana, vjerojatno pečem kolače ili gledam Formulu 1.",
         "Možeš pronaći više detalja o mojim projektima i obrazovanju na njihovim odgovarajućim stranicama. Slobodno mi se javi na gabrijelajosipovic1@gmail.com ili putem mog GitHuba. Uvijek sam otvorena za nove prilike i izazove.",
-        "Za više detalja, možete preuzeti moj CV klikom na gumb ispod.",
+        "Za kratki pregled, možete preuzeti moj CV klikom na gumb ispod.",
       ],
+      cvUrl:
+        "https://drive.google.com/uc?export=download&id=1SN6ON3vJ67jmRGZMN24sLfYrhuChwFCe",
+      download: "Preuzmi moj CV",
     },
     projects: {
       title: "projekti",

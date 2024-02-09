@@ -103,7 +103,6 @@ nav {
 a {
   color: var(--text);
   text-decoration: none;
-  width: 100%;
 }
 
 a:hover,
@@ -141,7 +140,7 @@ a[aria-current="page"] {
     left: 50%;
     width: 60%;
     transform: translateX(-50%);
-    border: 1px solid var(--primary)
+    border: 1px solid var(--primary);
   }
 }
 
@@ -158,4 +157,14 @@ a[aria-current="page"] {
   .menuBtn {
     display: none;
   }
+}
+
+button,
+.button {
+  color: var(--background);
+  background-color: var(--secondary);
+  border: 0;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
 }
