@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import ToggleTheme from "./ToggleTheme";
-import ToggleLanguage from "./ToggleLanguage";
+import ToggleTheme from "../toggles/ToggleTheme";
+import ToggleLanguage from "../toggles/ToggleLanguage";
 import { useLanguage } from "@/hooks/useLanguage";
 import { translations } from "@/utils/translations";
 import { useState } from "react";
