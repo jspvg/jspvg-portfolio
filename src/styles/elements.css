@@ -14,13 +14,6 @@
   height: 12rem;
 }
 
-@media (max-width: 600px) {
-  .picture {
-    width: 8rem;
-    height: 8rem;
-  }
-}
-
 .header {
   display: flex;
   justify-content: flex-start;
@@ -72,6 +65,28 @@
   }
 }
 
+@media (max-width: 600px) {
+  .picture {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .page {
+    gap: 1rem;
+    width: 100dvw;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    margin-left: 5rem;
+  }
+
+  #intro {
+    font-size: 1.333rem;
+  }
+}
 
 .footer {
   display: flex;

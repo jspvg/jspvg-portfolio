@@ -141,6 +141,7 @@ a[aria-current="page"] {
     width: 60%;
     transform: translateX(-50%);
     border: 1px solid var(--primary);
+    background-color: var(--background);
   }
 }
 
@@ -158,6 +159,13 @@ a[aria-current="page"] {
     display: none;
   }
 }
+
+@media (max-width: 600px) {
+  .navigation{
+    width: 100dvw;
+  }
+}
+
 
 button,
 .button {
