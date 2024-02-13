@@ -23,7 +23,7 @@
   width: 100%;
 }
 
-.card {
+.card-about {
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -92,4 +92,100 @@
   display: flex;
   justify-content: flex-end;
   width: 70%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  width: 95dvw;
+  margin-bottom: 2rem;
+}
+
+.menuBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text);
+}
+
+@media (min-width: 461px) {
+  .menuBtn {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .navigation {
+    width: 100dvw;
+  }
+}
+
+.card-large {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid var(--secondary);
+  border-radius: 2rem;
+  padding: 0.5rem;
+  width: 80%;
+  height: 500px;
+
+  h5 {
+    margin: 0;
+    text-decoration: underline;
+  }
+}
+
+.card-top,
+.card-bottom {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 1rem;
+}
+
+.card-bottom {
+  align-items: center;
+}
+
+.card-list,
+.card-description {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--accent);
+  border-radius: 1rem;
+  background-color: var(--secondary);
+  margin: 0 1rem;
+  padding: 0.5rem;
+  width: 66%;
+}
+
+.card-description {
+  margin: 1rem 0;
+}
+
+.card-list {
+  align-self: flex-start;
+  height: 80%;
+}
+
+.logo {
+  background-color: white;
+  padding: 0.5rem;
+  border: 3px solid var(--accent);
+  border-radius: 1rem;
+}
+
+.demo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
+  border: 1px solid var(--text);
+  border-radius: 10px;
+  padding: 5px;
+  height: 20%;
 }
