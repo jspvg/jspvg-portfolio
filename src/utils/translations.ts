@@ -17,6 +17,25 @@ export const translations = {
     },
     projects: {
       title: "projects",
+      project: [
+        {
+          title: "Project 1",
+          list: ["blabla", "blablabla", "blaaaa"],
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nemo, quasi repellat adipisci maiores, beatae deleniti inventore possimus hic distinctio incidunt laborum neque sunt aspernatur laboriosam vitae vel veritatis. Numquam eos dolor quisquam quasi culpavoluptates ratione tempora beatae nemo, eum, atque quod, ullam ex.",
+          github: "https://www.github.com",
+          demo: "https://www.github.com/jspvg",
+        },
+        {
+          title: "Project 2",
+          list: ["blabla", "blablabla", "blaaaa"],
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nemo, quasi repellat adipisci maiores, beatae deleniti inventore possimus hic distinctio incidunt laborum neque sunt aspernatur laboriosam vitae vel veritatis. Numquam eos dolor quisquam quasi culpavoluptates ratione tempora beatae nemo, eum, atque quod, ullam ex.",
+          github: "https://www.github.com",
+          demo: "https://www.github.com/jspvg",
+        },
+      ],
+      cta: "View live demo",
     },
     education: {
       title: "education",
@@ -44,6 +63,25 @@ export const translations = {
     },
     projects: {
       title: "projekti",
+      project: [
+        {
+          title: "Projekt 1",
+          list: ["blabla", "blablabla", "blaaaa"],
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nemo, quasi repellat adipisci maiores, beatae deleniti inventore possimus hic distinctio incidunt laborum neque sunt aspernatur laboriosam vitae vel veritatis. Numquam eos dolor quisquam quasi culpavoluptates ratione tempora beatae nemo, eum, atque quod, ullam ex.",
+          github: "https://www.github.com",
+          demo: "https://www.github.com/jspvg",
+        },
+        {
+          title: "Projekt 2",
+          list: ["blabla", "blablabla", "blaaaa"],
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nemo, quasi repellat adipisci maiores, beatae deleniti inventore possimus hic distinctio incidunt laborum neque sunt aspernatur laboriosam vitae vel veritatis. Numquam eos dolor quisquam quasi culpavoluptates ratione tempora beatae nemo, eum, atque quod, ullam ex.",
+          github: "https://www.github.com",
+          demo: "https://www.github.com/jspvg",
+        },
+      ],
+      cta: "Pogledaj live demo",
     },
     education: {
       title: "obrazovanje",

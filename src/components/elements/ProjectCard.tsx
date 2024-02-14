@@ -1,11 +1,27 @@
 import Image from "next/image";
 
-const ProjectCard = () => {
+interface ProjectCardProps {
+  title: string;
+  githubUrl: string;
+  demoUrl: string;
+  list: string[];
+  description: string;
+  cta: string;
+}
+
+const ProjectCard = ({
+  title,
+  githubUrl,
+  demoUrl,
+  list,
+  description,
+  cta,
+}: ProjectCardProps) => {
   return (
     <div className="card-large">
-      <h5>Project title</h5>
+      <h5>{title}</h5>
       <div className="card-top">
-        <a href="http://www.github.com/jspvg" className="logo">
+        <a href={`${githubUrl}`} className="logo">
           <Image
             src="/github-mark.png"
             alt="image"
@@ -16,28 +32,18 @@ const ProjectCard = () => {
         </a>
         <div className="card-list">
           <ul>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum,
-              voluptatem?
-            </li>
+            {list.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
           </ul>
         </div>
       </div>
       <div className="card-bottom">
         <div className="card-description">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nemo,
-            quasi repellat adipisci maiores, beatae deleniti inventore possimus
-            hic distinctio incidunt laborum neque sunt aspernatur laboriosam
-            vitae vel veritatis. Numquam eos dolor quisquam quasi culpa
-            voluptates ratione tempora beatae nemo, eum, atque quod, ullam ex.
-          </p>
+          <p>{description}</p>
         </div>
-        <a href="http://www.github.com/jspvg" className="demo">
-          View Live demo here
+        <a href={`${demoUrl}`} className="demo">
+          {cta}
         </a>
       </div>
     </div>
