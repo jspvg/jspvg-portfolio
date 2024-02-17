@@ -19,20 +19,43 @@ export const translations = {
       title: "projects",
       project: [
         {
-          title: "Project 1",
-          list: ["blabla", "blablabla", "blaaaa"],
+          title: "Link Sharing",
+          list: [
+            "Technical Stack: Vite, React, TypeScript, Zod (for form validation)",
+            "Database: The application uses a Supabase database",
+            "Future Improvements: The application will be made responsive for better user experience on different devices",
+            "Deployment: The application is deployed on Netlify and uses a GitHub workflow for local testing",
+          ],
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nemo, quasi repellat adipisci maiores, beatae deleniti inventore possimus hic distinctio incidunt laborum neque sunt aspernatur laboriosam vitae vel veritatis. Numquam eos dolor quisquam quasi culpavoluptates ratione tempora beatae nemo, eum, atque quod, ullam ex.",
-          github: "https://www.github.com",
-          demo: "https://www.github.com/jspvg",
+            "This is a web application that allows users to manage and share their social media links effectively. It is built using Vite, React, TypeScript, and Supabase. The application provides features such as secure authentication, link management, profile management, form validation, and sharing options. Users can add up to 5 links to their social media accounts, preview them in a mocked mobile phone format, and share the preview by copying the URL to their clipboard. The application also includes a logout button and a preview tab in the navbar.",
+          github: "https://github.com/jspvg/link-sharing-app",
+          demo: "https://link-sharing-jspvg.netlify.app/",
         },
         {
-          title: "Project 2",
-          list: ["blabla", "blablabla", "blaaaa"],
+          title: "Expense Tracker",
+          list: [
+            "Technical Stack: Vite, React, TypeScript",
+            "Database: The application uses a Firebase database",
+            "Future improvements: The application will have an option to register/login with email/password instead of only utilising the Google account",
+            "Deployment: The application is deployed using Firebase deployment and is set up with a continuous deployment pipeline using GitHub Actions",
+          ],
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nemo, quasi repellat adipisci maiores, beatae deleniti inventore possimus hic distinctio incidunt laborum neque sunt aspernatur laboriosam vitae vel veritatis. Numquam eos dolor quisquam quasi culpavoluptates ratione tempora beatae nemo, eum, atque quod, ullam ex.",
-          github: "https://www.github.com",
-          demo: "https://www.github.com/jspvg",
+            "This is a web application that allows users to manage their expenses and income effectively. It is built using Vite, React, TypeScript, and Firebase. The application provides features such as secure sign in/out using Google account, real-time balance view, transaction management, transaction history, and a responsive design for various devices.",
+          github: "https://github.com/jspvg/expense-tracker-react-ts",
+          demo: "https://expenses-jspvg.web.app/",
+        },
+        {
+          title: "Task Manager",
+          list: [
+            "Technical Stack: Angular v17.1.1, Angular Material UI v17.1.1",
+            "Database: localStorage (to be replaced with Firebase)",
+            "Future improvements:  I plan to connect the application to Firebase for a register/login page and to save the data there instead of localStorage. This will allow for persistent data storage and user authentication.",
+            "Deployment: The application is deployed on Netlify and uses a GitHub workflow for local testing",
+          ],
+          description:
+            "This is a Task Manager application built with Angular v17. It was a take-home assignment and represents my first independent Angular project. The application allows users to manage their tasks effectively. Users can log in/out, view their tasks, add new ones, edit existing ones, and mark them as done. Currently, the login/logout service is mocked (any e-mail/password combination works) and tasks are stored in localStorage.",
+          github: "https://github.com/jspvg/task-manager-angular",
+          demo: "https://task-manager-jspvg.netlify.app/",
         },
       ],
       cta: "View live demo",
@@ -65,20 +88,43 @@ export const translations = {
       title: "projekti",
       project: [
         {
-          title: "Projekt 1",
-          list: ["blabla", "blablabla", "blaaaa"],
+          title: "Link Sharing",
+          list: [
+            "Tehnološki Stack: Vite, React, TypeScript, Zod (za validaciju formi)",
+            "Baza podataka: Aplikacija koristi Supabase bazu podataka",
+            "Planirana poboljšanja: Aplikacija će biti prilagođena za bolje korisničko iskustvo na različitim uređajima",
+            "Implementacija: Aplikacija je implementirana na Netlify-u i koristi GitHub workflow za lokalno testiranje",
+          ],
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nemo, quasi repellat adipisci maiores, beatae deleniti inventore possimus hic distinctio incidunt laborum neque sunt aspernatur laboriosam vitae vel veritatis. Numquam eos dolor quisquam quasi culpavoluptates ratione tempora beatae nemo, eum, atque quod, ullam ex.",
-          github: "https://www.github.com",
-          demo: "https://www.github.com/jspvg",
+            "Ovo je web aplikacija koja omogućuje korisnicima da učinkovito upravljaju i dijele svoje poveznice na društvenim mrežama. Izgrađena je koristeći Vite, React, TypeScript i Supabase. Aplikacija pruža značajke poput sigurne autentifikacije, upravljanja poveznicama, upravljanja profilima, validacije formi i opcija dijeljenja.",
+          github: "https://github.com/jspvg/link-sharing-app",
+          demo: "https://link-sharing-jspvg.netlify.app/",
         },
         {
-          title: "Projekt 2",
-          list: ["blabla", "blablabla", "blaaaa"],
+          title: "Expense Tracker",
+          list: [
+            "Tehnološki Stack: Vite, React, TypeScript",
+            "Baza podataka: Aplikacija koristi Firebase bazu podataka",
+            "Planirana poboljšanja: Aplikacija će imati opciju registracije/prijave putem e-maila/lozinke umjesto samo korištenja Google računa",
+            "Implementacija: Aplikacija je implementirana koristeći Firebase implementaciju i postavljena je s kontinuiranim pipeline-om za implementaciju koristeći GitHub Actions",
+          ],
           description:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nemo, quasi repellat adipisci maiores, beatae deleniti inventore possimus hic distinctio incidunt laborum neque sunt aspernatur laboriosam vitae vel veritatis. Numquam eos dolor quisquam quasi culpavoluptates ratione tempora beatae nemo, eum, atque quod, ullam ex.",
-          github: "https://www.github.com",
-          demo: "https://www.github.com/jspvg",
+            "Ovo je web aplikacija koja omogućuje korisnicima da učinkovito upravljaju svojim troškovima i prihodima. Izgrađena je koristeći Vite, React, TypeScript i Firebase. Aplikacija pruža značajke poput sigurne prijave/odjave koristeći Google račun, pregleda trenutnog stanja u stvarnom vremenu, upravljanja transakcijama, povijesti transakcija i responzivnog dizajna za različite uređaje.",
+          github: "https://github.com/jspvg/expense-tracker-react-ts",
+          demo: "https://expenses-jspvg.web.app/",
+        },
+        {
+          title: "Task Manager",
+          list: [
+            "Tehnološki Stack: Angular v17.1.1, Angular Material UI v17.1.1",
+            "Baza podataka: localStorage (bit će zamijenjen Firebase-om)",
+            "Planirana poboljšanja: Planiram povezati aplikaciju s Firebase-om za stranicu za registraciju/prijavu i spremiti podatke tamo umjesto u localStorage. To će omogućiti trajno spremanje podataka i autentifikaciju korisnika.",
+            "Implementacija: Aplikacija je implementirana na Netlify-u i koristi GitHub workflow za lokalno testiranje",
+          ],
+          description:
+            "Ovo je aplikacija za upravljanje zadacima izgrađena s Angular v17. Bila je take-home assignment i predstavlja moj prvi neovisni Angular projekt. Aplikacija omogućuje korisnicima da učinkovito upravljaju svojim zadacima. Korisnici se mogu prijaviti/odjaviti, pregledavati svoje zadatke, dodavati nove, uređivati postojeće i označavati ih kao obavljene. Trenutno je usluga prijave/odjave simulirana (bilo koja kombinacija e-mail/password radi), a zadaci se pohranjuju u localStorage.",
+          github: "https://github.com/jspvg/task-manager-angular",
+          demo: "https://task-manager-jspvg.netlify.app/",
         },
       ],
       cta: "Pogledaj live demo",

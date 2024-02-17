@@ -130,6 +130,7 @@
   border: 3px solid var(--secondary);
   border-radius: 2rem;
   padding: 0.5rem;
+  margin: 2rem;
   width: 80%;
   height: 500px;
 
@@ -173,8 +174,11 @@
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.3rem;
+  height: min-content;
   border: 3px solid var(--accent);
   border-radius: 1rem;
 }

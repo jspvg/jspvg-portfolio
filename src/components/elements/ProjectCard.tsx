@@ -21,7 +21,7 @@ const ProjectCard = ({
     <div className="card-large">
       <h5>{title}</h5>
       <div className="card-top">
-        <a href={`${githubUrl}`} className="logo">
+        <a href={`${githubUrl}`} className="logo" target="blank">
           <Image
             src="/github-mark.png"
             alt="image"
@@ -42,7 +42,7 @@ const ProjectCard = ({
         <div className="card-description">
           <p>{description}</p>
         </div>
-        <a href={`${demoUrl}`} className="demo">
+        <a href={`${demoUrl}`} className="demo" target="blank">
           {cta}
         </a>
       </div>
