@@ -27,7 +27,7 @@ const Home = () => {
     <div className="page">
       <div className="header">
         <Picture />
-        <h3 id="intro"></h3>
+        <h4 id="intro"></h4>
       </div>
       <Card />
       <div className="footer">

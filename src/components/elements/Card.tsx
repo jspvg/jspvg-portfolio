@@ -6,7 +6,7 @@ const Card = () => {
   const t = translations[language];
 
   return (
-    <div className="card">
+    <div className="card-about">
       {t.about.description.map((paragraph, index) => (
         <p key={index}>{paragraph}</p>
       ))}

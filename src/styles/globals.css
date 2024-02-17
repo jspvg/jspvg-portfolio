@@ -110,22 +110,6 @@ a[aria-current="page"] {
   text-decoration: underline;
 }
 
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 1rem;
-  width: 95dvw;
-  margin-bottom: 2rem;
-}
-
-.menuBtn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: var(--text);
-}
-
 @media (max-width: 460px) {
   nav {
     display: none;
@@ -153,19 +137,6 @@ a[aria-current="page"] {
     width: 6rem;
   }
 }
-
-@media (min-width: 461px) {
-  .menuBtn {
-    display: none;
-  }
-}
-
-@media (max-width: 600px) {
-  .navigation{
-    width: 100dvw;
-  }
-}
-
 
 button,
 .button {
