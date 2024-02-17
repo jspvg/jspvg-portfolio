@@ -28,6 +28,7 @@ const ProjectCard = ({
             width={150}
             height={150}
             priority
+            className="image-github"
           />
         </a>
         <div className="card-list">

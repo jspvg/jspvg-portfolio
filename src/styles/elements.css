@@ -5,6 +5,7 @@
   align-items: center;
   gap: 1rem;
   margin-top: 2rem;
+  max-width: 1536px;
 }
 
 .picture {
@@ -99,7 +100,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 1rem;
-  width: 95dvw;
+  width: 95%;
   margin-bottom: 2rem;
 }
 
@@ -120,6 +121,52 @@
   .navigation {
     width: 100dvw;
   }
+  .image-github {
+    width: 100px;
+    height: 100px;
+  }
+  .demo {
+    text-align: center;
+  }
+  .card-top {
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+  }
+  .card-top,
+  .card-bottom {
+    flex-direction: column;
+  }
+  .card-list {
+    order: 1;
+  }
+  .card-list,
+  .card-description {
+    width: 90%;
+  }
+  .logo {
+    order: 2;
+  }
+}
+
+@media (max-width: 376px) {
+  .card-description {
+    display: none;
+  }
+}
+
+@media (min-width: 376px) {
+  .card-description {
+    display: flex;
+  }
+}
+
+@media (min-width: 601px) {
+  .card-list,
+  .card-description {
+    width: 66%;
+  }
 }
 
 .card-large {
@@ -132,7 +179,6 @@
   padding: 0.5rem;
   margin: 2rem;
   width: 80%;
-  height: 500px;
 
   h5 {
     margin: 0;
@@ -154,14 +200,12 @@
 
 .card-list,
 .card-description {
-  display: flex;
   align-items: center;
   border: 2px solid var(--accent);
   border-radius: 1rem;
   background-color: var(--secondary);
   margin: 0 1rem;
   padding: 0.5rem;
-  width: 66%;
 }
 
 .card-description {
@@ -169,6 +213,7 @@
 }
 
 .card-list {
+  display: flex;
   align-self: flex-start;
   height: 80%;
 }
@@ -183,7 +228,7 @@
   border-radius: 1rem;
 }
 
-.demo{
+.demo {
   display: flex;
   justify-content: center;
   align-items: center;
