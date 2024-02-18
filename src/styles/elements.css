@@ -110,6 +110,30 @@
   height: 80%;
 }
 
+.card-cert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid var(--accent);
+  border-radius: 1rem;
+  background-color: white;
+  width: 200px;
+  height: 75px;
+
+  h6 {
+    margin: auto;
+  }
+}
+
+.certs {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-items: center;
+  gap: 1rem;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -156,6 +180,12 @@
   }
   50% {
     border-color: orange;
+  }
+}
+
+@media (max-width: 1024px) {
+  .certs {
+    grid-template-columns: repeat(2, 300px);
   }
 }
 
@@ -209,11 +239,42 @@
   .logo {
     order: 2;
   }
+  .certs {
+    grid-template-columns: repeat(2, 210px);
+  }
+  .card-cert {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 461px) {
+  .certs {
+    grid-template-columns: repeat(2, 200px);
+  }
+  .card-cert {
+    padding: 0;
+    small {
+      display: none;
+    }
+  }
 }
 
 @media (max-width: 376px) {
   .card-description {
     display: none;
+  }
+  .certs {
+    grid-template-columns: repeat(1, 300px);
+  }
+  .card-cert {
+    justify-content: center;
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem;
+
+    h6 {
+      margin: 0;
+    }
   }
 }
 
