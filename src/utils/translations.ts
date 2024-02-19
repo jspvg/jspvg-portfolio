@@ -62,6 +62,60 @@ export const translations = {
     },
     education: {
       title: "education",
+      uniTitleLong: "Bachelor of Computing",
+      uniTitleShort: "[univ. bacc. ing. comp.]",
+      uniDescription: [
+        "Worked on multiple projects utilising different technologies mostly in Web Development",
+        "Tutored and mentored students in the fields of Mathematics and Programming (Data Structures, OOP, C/C++,Java)",
+        "Thesis: Possibilities of web application development in the Kotlin programming language",
+      ],
+      certs: [
+        {
+          title: "React & TypeScript - The Practical Guide",
+          issued: "nov 2023",
+          organization: "academind",
+        },
+        {
+          title: "NextJS 13 [NextAuth]",
+          issued: "oct 2023",
+          organization: "udemy",
+        },
+        {
+          title: "Devademy: Space Edition [React]",
+          issued: "aug 2023",
+          organization: "notch",
+        },
+        {
+          title: "SQL Essential Training",
+          issued: "nov 2022",
+          organization: "linkedin",
+        },
+        {
+          title: "Scrum: The Basics",
+          issued: "nov 2022",
+          organization: "linkedin",
+        },
+        {
+          title: "Learn OOP in JavaScript",
+          issued: "oct 2022",
+          organization: "educative",
+        },
+        {
+          title: "Informatics [JavaScript]",
+          issued: "jun 2022",
+          organization: "KCKF Mostar",
+        },
+        {
+          title: "Python Essential Training",
+          issued: "aug 2021",
+          organization: "linkedin",
+        },
+        {
+          title: "English Access Program",
+          issued: "dec 2016",
+          organization: "U.S. Embassy B&H",
+        },
+      ],
     },
     toggle: {
       menu: "menu",
@@ -130,7 +184,61 @@ export const translations = {
       cta: "Pogledaj live demo",
     },
     education: {
-      title: "obrazovanje",
+      title: "education",
+      uniTitleLong: "Prvostupnica Računarstva",
+      uniTitleShort: "[univ. bacc. ing. comp.]",
+      uniDescription: [
+        "Radila na više projekata koristeći različite tehnologije uglavnom u web razvoju",
+        "Podučavala i mentorirala studente u područjima matematike i programiranja (strukture podataka, OOP, C/C++, Java)",
+        "Završni rad: Mogućnosti razvoja web aplikacija u programskom jeziku Kotlin",
+      ],
+      certs: [
+        {
+          title: "React & TypeScript - The Practical Guide",
+          issued: "stu 2023",
+          organization: "academind",
+        },
+        {
+          title: "NextJS 13 [NextAuth]",
+          issued: "lis 2023",
+          organization: "udemy",
+        },
+        {
+          title: "Devademy: Space Edition [React]",
+          issued: "kol 2023",
+          organization: "notch",
+        },
+        {
+          title: "SQL Essential Training",
+          issued: "stu 2022",
+          organization: "linkedin",
+        },
+        {
+          title: "Scrum: The Basics",
+          issued: "stu 2022",
+          organization: "linkedin",
+        },
+        {
+          title: "Learn OOP in JavaScript",
+          issued: "lis 2022",
+          organization: "educative",
+        },
+        {
+          title: "Informatika [JavaScript]",
+          issued: "lip 2022",
+          organization: "KCKF Mostar",
+        },
+        {
+          title: "Python Essential Training",
+          issued: "kol 2021",
+          organization: "linkedin",
+        },
+        {
+          title: "English Access Program",
+          issued: "pro 2016",
+          organization: "U.S. Embassy BiH",
+        },
+      ],
     },
     toggle: {
       menu: "meni",

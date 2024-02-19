@@ -1,48 +1,35 @@
+import { useLanguage } from "@/hooks/useLanguage";
+import { translations } from "@/utils/translations";
+
 const Education = () => {
+  const { language } = useLanguage();
+  const t = translations[language];
   return (
     <div className="page">
       <h5>university</h5>
       <div className="uni">
         <div className="uni-header">
-          <p>Bachelor of Computing [univ. bacc. ing. comp.]</p>
+          <p>
+            {t.education.uniTitleLong}
+            <br />
+            {t.education.uniTitleShort}
+          </p>
         </div>
         <div className="uni-body">
-          <p>
-            Worked on multiple projects utilising different technologies mostly
-            in Web Development <br /> Tutored and mentored students in the
-            fields of Mathematics and Programming (Data Structures, OOP, C/C++,
-            Java)
-            <br />
-            Thesis: Possibilities of web application development in the Kotlin
-            programming language
-          </p>
+          {t.education.uniDescription.map((desc, index) => (
+            <p key={index}>{desc}</p>
+          ))}
         </div>
       </div>
       <div className="certs">
-        <div className="card-cert">
-          <h6>Devademy: Space Edition [React]</h6>
-          <small>aug 2023, udemy</small>
-        </div>
-        <div className="card-cert">
-          <h6>Devademy: Space Edition [React]</h6>
-          <small>aug 2023, udemy</small>
-        </div>
-        <div className="card-cert">
-          <h6>Devademy: Space Edition [React]</h6>
-          <small>aug 2023, udemy</small>
-        </div>
-        <div className="card-cert">
-          <h6>Devademy: Space Edition [React]</h6>
-          <small>aug 2023, udemy</small>
-        </div>
-        <div className="card-cert">
-          <h6>Devademy: Space Edition [React]</h6>
-          <small>aug 2023, udemy</small>
-        </div>
-        <div className="card-cert">
-          <h6>Devademy: Space Edition [React]</h6>
-          <small>aug 2023, udemy</small>
-        </div>
+        {t.education.certs.map((cert, index: number) => (
+          <div key={index} className="card-cert">
+            <h6>{cert.title}</h6>
+            <small>
+              {cert.issued}, {cert.organization}
+            </small>
+          </div>
+        ))}
       </div>
     </div>
   );
